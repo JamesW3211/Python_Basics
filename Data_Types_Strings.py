@@ -3,50 +3,51 @@ Created by JamesW
 This file was created with the purpose of learning the basics of Python programing
 """
 
+#Datatypes - Strings
 
-
-""" The first data type we’ll look at is the string."""
-
-
+""" The first data type we’ll look at is the string.A string is simply a series of characters. 
+Anything inside quotes is considered a string in Python, and you can use single or double quotes 
+around your strings.
+"""
 
 string = "This is a string with double quotes"
 string2 = 'This is a string with single quotes'
 print(string)
 print(string2)
 
-"""A string is simply a series of characters. Anything inside quotes is considered a string in Python, and you can 
-use single or double quotes around your strings."""
 
-book_name = "jurassic park"
-print(book_name.title())
-
+#Title Method
 """
-In this example, the lowercase string "jurassic park" is stored in the variable book_name. The method title() appears
-after the variable in the print() statement.
+In this example, the lowercase string "jurassic park" is stored in the variable book_name. 
+The method title() appears after the variable in the print() statement.
 A method is an action that Python can perform on a piece of data. 
 The dot (.) after name in name.title() tells Python to make the title() method act on the variable name. 
-Every method is followed by a set of parentheses, because methods often need additional information to do their work.
+Every method is followed by a set of parentheses, since methods often need additional information to work.
 That information is provided inside the parentheses. 
-The title() function doesn’t need any additional information, so its parentheses are empty.
-title() displays each word in titlecase, where each word begins with a
-capital letter. 
+The title() function does not need any additional information, so its parentheses are empty.
+title() displays each word in titlecase, where each word begins with a capital letter. 
 This is useful because you’ll often want to think of a name as a piece of information. 
 For example, you might want your program to recognize the input values Ada, ADA, and ada as the 
 same name, and display all of them as Ada.
 """
+
+book_name = "jurassic park"
+print(book_name.title())
+
+
+#Upper and Lower Method
+"""The lower() method is particularly useful for storing data. Many times
+you won’t want to trust the capitalization that your users provide, so you’ll
+convert strings to lowercase before storing them. Then when you want to
+display the information, you’ll use the case that makes the most sense for
+each string."""
+
 
 name = "joe anderson"
 print(name.upper()) #The Upper method turns a string to all uppercase letters.
 
 name = "Sally Liverpool"
 print(name.lower()) #The Lower method turns a string to all lowercase letters.
-
-
-"""The lower() method is particularly useful for storing data. Many times
-you won’t want to trust the capitalization that your users provide, so you’ll
-convert strings to lowercase before storing them. Then when you want to
-display the information, you’ll use the case that makes the most sense for
-each string."""
 
 
 #Concatenating Strings
