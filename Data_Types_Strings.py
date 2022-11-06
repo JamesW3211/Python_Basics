@@ -16,6 +16,19 @@ print(string)
 print(string2)
 
 
+
+#Reassigning the Value Inside Variables Using Strings
+
+dessert = "Chocolate"
+dessert = dessert + " Cake" #The value in the variable dessert was reassigned creating a new value.
+print(dessert)
+
+dessert = "Chocolate"
+dessert += " Cake" #The above can be shortend using "In-place addition".
+print(dessert)
+
+
+
 #Title Method
 """
 In this example, the lowercase string "jurassic park" is stored in the variable book_name. 
@@ -105,3 +118,7 @@ print(car)
 car = " Mercedes "
 car = car.strip() #The whitespace on both sides of the string is removed.
 print(car)
+
+
+
+
