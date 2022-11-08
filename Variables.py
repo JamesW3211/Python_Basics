@@ -18,7 +18,7 @@ print(message)   #The new value is displayed on screen.
 
 
 """
-RULES TO REMEMBER 
+VARIOUS IMPORTANT RULES TO REMEMBER 
 •	 Variable names can contain only letters, numbers, and underscores.
 They can start with a letter or an underscore, but not with a number.
 For instance, you can call a variable message_1 but not 1_message.
