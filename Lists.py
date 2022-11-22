@@ -28,3 +28,29 @@ print(cars[2].title())
 Python considers the first item in a list to be at position 0, not position 1.
 This is true of most programming languages, and the reason has to do with
 how the list operations are implemented at a lower level. """
+
+
+
+""" For Loop(For in Loop)
+For each element
+In a sequence
+Loop do this action
+"""
+
+
+baseball_teams = ["Yankees", "Blue Jays", "Orioles"]
+print(baseball_teams)
+
+for each_element in baseball_teams:
+    print(each_element)
+
+"""This line tells Python to retrieve the first value from the list of baseball
+teams and store it in the variable each_element. """
+
+
+
+for x in range(1,5):
+    print(x)
+
+number = list(range(1,5))
+print(number)
