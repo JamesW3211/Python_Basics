@@ -15,8 +15,11 @@ in the list are separated by commas.
 cars = ["honda", "toyota", "mercedes", "lexus", "jeep"]
 print(cars)
 
-"""Accessing Elements in a List
-Lists are ordered collections, so you can access any element in a list by
+
+
+"""Accessing Elements in a List"""
+
+"""Lists are ordered collections, so you can access any element in a list by
 telling Python the position, or index, of the item desired."""
 
 cars = ["honda", "toyota", "mercedes", "lexus", "jeep"]
@@ -39,6 +42,7 @@ print(baseball_teams[-1]) #The last item in the list is displayed.
 
 """You can use individual values from a list just as you would any other variable."""
 print("My favorite baseball team is the " + baseball_teams[0].title()) #String concatenation + Method
+
 
 
 """Changing, Adding, and Removing Elements"""
