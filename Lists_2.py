@@ -71,3 +71,14 @@ in a given range"""
 odd_numbers = list(range(1,10,2)) #Starts at 1, adds 2 repeatedly until it reaches or passes the end value.
 print(odd_numbers)
 
+"""You can create almost any set of numbers you want to using the range()
+function. Here’s how you might put the first 10 square numbers into a list:"""
+
+squares = []  #start with an empty list
+for value in range(1,11): #loop through each value 1 to 10 and store it in the variable "value"
+    square = value **2 #numbers 1 to 10 is raised to the power of 10 and stored in the variable "square"
+    squares.append(square) #each result is appended to the list "squares"
+print(squares)
+
+
+"""Simple Statistics with a List of Numbers"""
