@@ -23,7 +23,7 @@ for each_element in baseball_teams:
 
 """Explanation of Looping Example
 1. Python retrieves the first value (Yankees) from the list of baseball
-teams and store it in the variable "each_element." 
+teams and stores it in the variable "each_element." 
 2. Python prints "Yankees" to the display. 
 3. Python retrieves he second item from the list and repeats the process 
 until all items are looped through, stored, and displayed. 
