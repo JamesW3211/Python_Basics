@@ -83,6 +83,9 @@ print(squares)
 
 """Simple Statistics with a List of Numbers"""
 
+
+"""Simple Statistics with a List of Numbers"""
+
 """A few Python functions are specific to lists of numbers. For example, you
 can easily find the minimum, maximum, and sum of a list of numbers:"""
 
@@ -91,4 +94,28 @@ print(min(digits))
 print(max(digits))
 print(sum(digits))
 
+"""Working with Part of a List"""
 
+"""You can also work with a specific group of items in a list, which Python calls
+a slice.To make a slice, you specify the index of the first and last elements you
+want to work with. As with the range() function, Python stops one item
+before the second index you specify."""
+
+players = ["tony", "bob", "sally", "jamal", "quinn"]
+print(players[0:3])
+
+"""If you omit the first index in a slice, Python automatically starts your
+slice at the beginning of the list:"""
+
+print(players[:4])
+
+"""If you omit the second index in a slice, it includes every value in the list 
+after the first index."""
+
+print(players[2:])
+
+"""Recall that a negative index returns an element a certain distance from the end of a list;
+therefore, you can output any slice from the end of a list.This prints the names of the last
+three players and would continue to work as the list of players changes in size."""
+
+print(players[-3:])
