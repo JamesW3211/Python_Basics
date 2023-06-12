@@ -119,3 +119,15 @@ therefore, you can output any slice from the end of a list.This prints the names
 three players and would continue to work as the list of players changes in size."""
 
 print(players[-3:])
+
+
+"""Looping Through a Slice
+You can use a slice in a for loop if you want to loop through a subset of the elements in a
+ list."""
+
+players_list = ["Joey", "richard", "becky", "anish"]
+for players in players_list[:2]:
+    print(players)
+    
+"""Instead of looping through the entire list of players , Python loops
+through only the first two names"""
