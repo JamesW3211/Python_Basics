@@ -130,4 +130,4 @@ for players in players_list[:2]:
     print(players)
     
 """Instead of looping through the entire list of players , Python loops
-through only the first two names"""
+through only the first two names."""
