@@ -92,7 +92,6 @@ print(str(my_num) + " is my favorite number") #Converts a number into a string t
 
 
 #Numbers and Set Operations
-
 my_num = -5
 print(max(4, 6)) #Find the largest number from a set of numbers
 
