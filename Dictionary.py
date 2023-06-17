@@ -9,7 +9,7 @@ Understanding dictionaries allows you to model a variety of real-world
 objects more accurately.
 """
 
-enemy = {"color": "red", "hp":  "4"}
+enemy = {"color": "blue", "hp":  "4"}
 print(enemy["color"])
 print(enemy["hp"])
 
