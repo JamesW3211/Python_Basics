@@ -4,7 +4,7 @@ This file was created with the purpose of learning the basics of Python programi
 """
 
 
-"""Dictionaries can store an almost limitless amount of information.
+"""Dictionaries can store almost limitless amount of information.
 Understanding dictionaries allows you to model a variety of real-world
 objects more accurately.
 """
