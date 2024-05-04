@@ -1,6 +1,6 @@
 """
 Created by JamesW
-This file was created with the purpose of learning the basics of Python programing
+This file was created with the purpose of learning the basics of Python programing.
 """
 
 
