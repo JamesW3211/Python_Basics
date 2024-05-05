@@ -5,7 +5,7 @@ This file was created with the purpose of learning the basics of Python programi
 
 #Datatypes - Strings
 
-""" The first data type we’ll look at is the string.A string is simply a series of characters. 
+""" The first data type we’ll look at is the string. A string is simply a series of characters. 
 Anything inside quotes is considered a string in Python, and you can use single or double quotes 
 around your strings.
 """
