@@ -35,5 +35,5 @@ pair on its own line."""
 
 enemies = {} #Started with an empty list
 enemies["powerup"] = "laser"
-enemies["speed"] = 5 #Added two key:value pairs
+enemies["speed"] = 5 #Added two key:value pairs.
 print(enemies)
