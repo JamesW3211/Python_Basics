@@ -106,7 +106,7 @@ my_num = -5
 print(floor(3.7)) #Round the integer down to a whole number
 
 my_num = -5
-print(ceil(3.7)) #Rounds the integer up to a whole number
+print(ceil(3.7)) #Rounds the integer up to a whole number.
 
 
 #Random Numbers
