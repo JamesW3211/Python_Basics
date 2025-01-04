@@ -163,7 +163,7 @@ print("\nHere is the sorted list:")
 print(sorted(random_things))
 
 print("\nHere is the original list again: ")
-print(random_things) #The sorted list was only temporary
+print(random_things) #The sorted list was only temporary.
 
 """Printing a List in Reverse Order
 To reverse the original order of a list, you can use the reverse() method. """
